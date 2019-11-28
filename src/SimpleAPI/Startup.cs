@@ -39,7 +39,7 @@ namespace SimpleAPI
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            //some change
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
